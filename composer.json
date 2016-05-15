@@ -17,6 +17,7 @@
       "BiteCodes\\DoctrineFilterBundle\\": ""
     }
   },
+  "target-dir": "BiteCodes/DoctrineFilterBundle",
   "repositories": [
     {
       "type": "vcs",
