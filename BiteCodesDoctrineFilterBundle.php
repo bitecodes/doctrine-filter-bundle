@@ -12,5 +12,4 @@ class BiteCodesDoctrineFilterBundle extends Bundle
     {
         $container->addCompilerPass(new FilterRegistryCompilePass());
     }
-
 }
