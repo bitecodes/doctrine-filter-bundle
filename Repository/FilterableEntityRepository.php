@@ -5,6 +5,8 @@ namespace BiteCodes\DoctrineFilterBundle\Repository;
 use BiteCodes\DoctrineFilter\FilterBuilder;
 use Doctrine\Common\Persistence\Mapping\ClassMetadata;
 use Doctrine\ORM\EntityRepository;
+use Pagerfanta\Adapter\DoctrineORMAdapter;
+use Pagerfanta\Pagerfanta;
 
 class FilterableEntityRepository extends EntityRepository
 {
