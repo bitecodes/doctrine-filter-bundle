@@ -1,5 +1,7 @@
 {
   "name": "bitecodes/doctrine-filter-bundle",
+  "type": "symfony-bundle",
+  "description": "Symfony integration of https://github.com/bitecodes/doctrine-filter",
   "authors": [
     {
       "name": "Thomas Uhlmann",
