@@ -49,7 +49,7 @@ class FilterableEntityRepository extends EntityRepository
      * @param Pagerfanta $pagerfanta
      * @return array
      */
-    public function paginate(FilterInterface $filter, $searchParams, $page, $maxPerPage, &$pagerfanta = null)
+    public function paginate($filter, $searchParams, $page, $maxPerPage, &$pagerfanta = null)
     {
         /** @var QueryBuilder $qb */
         $qb = $this->createQueryBuilder('x');
