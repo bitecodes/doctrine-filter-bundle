@@ -1,0 +1,19 @@
+{
+  "name": "bitecodes/doctrine-filter-bundle",
+  "authors": [
+    {
+      "name": "Thomas Uhlmann",
+      "email": "tho.uhlmann@gmail.com"
+    }
+  ],
+  "require": {
+    "symfony/symfony": "2.8.*",
+    "bitecodes/doctrine-filter": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/bitecodes/doctrine-filter"
+    }
+  ]
+}

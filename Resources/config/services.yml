@@ -1,0 +1,14 @@
+services:
+    bite_codes.doctrine_filter.filter_registry:
+        class: BiteCodes\DoctrineFilter\FilterRegistry
+        public: false
+
+    bitecodes.doctrine_filter_builder:
+        class: BiteCodes\DoctrineFilter\FilterBuilder
+        arguments:
+            - '@bite_codes.doctrine_filter.filter_registry'
+
+    bitecodes.filterable_repository_factory:
+        class: BiteCodes\DoctrineFilterBundle\Repository\FilterableRepositoryFactory
+        arguments:
+            - '@bitecodes.doctrine_filter_builder'
