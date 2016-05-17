@@ -17,11 +17,5 @@
       "BiteCodes\\DoctrineFilterBundle\\": ""
     }
   },
-  "target-dir": "BiteCodes/DoctrineFilterBundle",
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/bitecodes/doctrine-filter"
-    }
-  ]
+  "target-dir": "BiteCodes/DoctrineFilterBundle"
 }
