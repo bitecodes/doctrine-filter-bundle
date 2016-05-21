@@ -5,10 +5,11 @@ services:
 
     bitecodes.doctrine_filter_builder:
         class: BiteCodes\DoctrineFilter\FilterBuilder
+        scope: prototype
         arguments:
             - '@bite_codes.doctrine_filter.filter_registry'
 
     bitecodes.filterable_repository_factory:
         class: BiteCodes\DoctrineFilterBundle\Repository\FilterableRepositoryFactory
         arguments:
-            - '@bitecodes.doctrine_filter_builder'
+            - '@bitecodes.doctrine_filter_builder='
