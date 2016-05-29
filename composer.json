@@ -10,7 +10,7 @@
   ],
   "require": {
     "symfony/symfony": "2.8.*",
-    "bitecodes/doctrine-filter": "0.1.*"
+    "bitecodes/doctrine-filter": "^0.1.1"
   },
   "autoload": {
     "psr-0": {
